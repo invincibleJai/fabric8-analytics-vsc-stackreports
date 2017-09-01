@@ -16,4 +16,4 @@ The purpose of the extension is to show stack analysis report. To play with the 
 
 * `npm install`
 * `npm run compile` to start the compiler in watch mode
-* open this folder in VS Code and press `F5`
+* open this folder in VS Code and press `F5` 
