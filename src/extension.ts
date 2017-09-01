@@ -609,7 +609,7 @@ let render_stack_iframe = (sa) => {
 	let stack_analysis_responses = new Map<String, String>();
   let STACK_API_TOKEN: string = '';
 
-  const STACK_API_URL: string = "https://recommender.api.openshift.io/api/v1/stack-analyses-v2"
+  const STACK_API_URL: string = "https://recommender.api.openshift.io/api/v1/stack-analyses"
 
 	let stack_collector = (file_uri, id, cb) => {
 	
