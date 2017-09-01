@@ -17,7 +17,7 @@ suite("Fabric8 Analytics Extension", () => {
 		});
 	});
 
-	/*test('should register all fabric8 commands', function () {
+	test('should register all fabric8 commands', function () {
 		return vscode.commands.getCommands(true).then((commands) =>
 		{
 			const FABRIC8_COMMANDS:string[] = [
@@ -29,7 +29,7 @@ suite("Fabric8 Analytics Extension", () => {
 			});
 			assert.equal(foundFabric8Commands.length ,FABRIC8_COMMANDS.length, 'Some fabric8 commands are not registered properly or a new command is not added to the test');
 		});
-	});*/
+	});
 
 	 test('should trigger fabric8-analytics full stack report activate', function () {
 		this.timeout(1 * 60 * 1000);
